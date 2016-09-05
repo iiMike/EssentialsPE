@@ -12,7 +12,7 @@ class KickAll extends BaseCommand{
      * @param BaseAPI $api
      */
     public function __construct(BaseAPI $api){
-        parent::__construct($api, "kickall", "Kick all the players", "<reason>");
+        parent::__construct($api, "kickall", "Kick everyone because you are mean", "<reason>");
         $this->setPermission("essentials.kickall");
     }
 
@@ -40,7 +40,7 @@ class KickAll extends BaseCommand{
                 $p->kick($reason, false);
             }
         }
-        $sender->sendMessage(TextFormat::AQUA . "Kicked all the players!");
+        $sender->sendMessage(TextFormat::AQUA . "rip players ;(");
         return true;
     }
 }
