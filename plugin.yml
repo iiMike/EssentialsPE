@@ -1,4 +1,4 @@
-name: EssentialsPE
+name: KingdomCoreCommands
 main: EssentialsPE\Loader
 version: 2.0.0
 api: 2.0.0
